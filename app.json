@@ -32,12 +32,12 @@
     "sendgrid:starter",
     "scheduler:standard"
   ],
-  "buildpacks": {
+  "buildpacks": [
     {
       "url": "https://github.com/gunpowderlabs/buildpack-ruby-rake-deploy-tasks"
     },
     {
       "url": "heroku/ruby"
     }
-  }
+  ]
 }
